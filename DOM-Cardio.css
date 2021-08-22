@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(22, 86, 184);
+}
+
+nav {
+    height: 2rem;
+    /* background-color: rgb(22, 86, 184); */
+}
+
+img {
+    margin: 1rem auto;
+    position: relative;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.playerCard {
+    background: white;
+    padding: 20px;
+}
+
+.playerCard h2 {
+    color: black;
+}
+
+.delete {
+    background-color: rgb(255, 0, 106);
+    color: whitesmoke;
+    border-radius: 4px;
+    padding: 0.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.delete:hover {
+    cursor: pointer;
+    border: 2px solid pink;
+}
+.playerCard h2 {
+    margin: 1rem;
+}
